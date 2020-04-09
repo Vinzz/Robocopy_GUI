@@ -176,6 +176,8 @@ namespace RoboCopy_GUI
             // checkProgress
             // 
             this.checkProgress.AutoSize = true;
+            this.checkProgress.Checked = true;
+            this.checkProgress.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkProgress.Location = new System.Drawing.Point(87, 137);
             this.checkProgress.Name = "checkProgress";
             this.checkProgress.Size = new System.Drawing.Size(94, 17);
